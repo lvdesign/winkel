@@ -1,0 +1,10 @@
+/*tooltip image ©lvdesign.com.fr*/
+a.thumbnail_g, a.thumbnail_d {position:relative; color:#69f; background:inherit;}
+a.thumbnail_g span, a.thumbnail_d span{display:none;}
+
+/*droite*/
+a.thumbnail_d:hover span, a.thumbnail_d:focus span{ 
+z-index:50; display:block; position:absolute; top:0; left:10em; margin:0; padding:0.6em; background:#fff; color:#69f;}
+/*gauche*/
+a.thumbnail_g:hover span, a.thumbnail_g:focus span{ 
+z-index:50; display:block; position:absolute; top:0; right:10em; margin:0; padding:0.6em; background:#fff; color:#69f;}

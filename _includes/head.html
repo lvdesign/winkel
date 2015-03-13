@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <script src="{{site.baseurl}}/js/vendor/modernizr-2.8.3.min.js"></script>
+        
+        <script src="{{ "/js/vendor/modernizr-2.8.3.min.js" | prepend: site.baseurl }}"></script>
+        <script src="{{ "/js/flashobj/swfobject.js" | prepend: site.baseurl }}"></script>
+        <script>swfobject.embedSWF("{{site.baseurl}}/js/flashobj/flashTest.swf","bmwId" , "28" ,"20", "9.0.0", "{{site.baseurl}}/js/flashobj/expressInstall.swf"); </script>
+        
+    </head>
+    <body class="home">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class="page">

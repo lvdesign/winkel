@@ -1,0 +1,12 @@
+# Site settings
+name: Winkel test
+
+description: site BMW test .
+  
+baseurl: /winkel
+
+twitter_username: lvdesign
+github_username:  lvdesign
+
+# Build settings
+markdown: kramdown
